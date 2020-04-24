@@ -11,6 +11,7 @@ import mongoose from 'mongoose';
 const app = express();
 const api = express.Router();
 
+
 dotenv.config();
 // mongoose connection
 console.log(process.env.DB_URL);
